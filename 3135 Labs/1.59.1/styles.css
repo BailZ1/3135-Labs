@@ -1,0 +1,32 @@
+body {
+   font-family: Arial;
+   background: radial-gradient(white, lightgray);
+}
+
+h1 {
+   color: darkblue;
+   padding: 8px;
+   text-shadow: 5px 5px 6px gray;
+}
+
+p:nth-child(5) {
+   background: revert;
+   box-shadow: revert;
+   padding: revert;
+}
+
+a {
+   font-size: 12px;
+}
+
+/* Add styles here */
+
+p {
+   color: white; /* Corrected: Set font color to white */
+   width: 350px; /* Corrected: Set width to 350px */
+   padding: 10px; /* Corrected: Set padding to 10px */
+   box-shadow: 5px 5px 6px gray; /* Added: Set box-shadow */
+   font-size: 16px;
+   background: linear-gradient(to bottom right, darkblue, skyblue);
+   border-radius: 5px;
+}
